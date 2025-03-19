@@ -1,0 +1,47 @@
+{
+  "name": "effect-days-2025-keynote",
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@10.6.2+sha512.47870716bea1572b53df34ad8647b42962bc790ce2bf4562ba0f643237d7302a3d6a8ecef9e4bdfc01d23af1969aa90485d4cebb0b9638fa5ef1daef656f6c1b",
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export",
+    "check": "tsc -b tsconfig.json",
+    "lint": "eslint \"**/{src,test,examples,scripts,dtslint}/**/*.{ts,mjs}\"",
+    "lint:fix": "pnpm lint --fix"
+  },
+  "dependencies": {
+    "@iconify-json/carbon": "^1.2.8",
+    "@slidev/theme-default": "latest",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@effect/ai": "^0.12.1",
+    "@effect/ai-anthropic": "^0.2.1",
+    "@effect/ai-openai": "^0.15.1",
+    "@effect/eslint-plugin": "^0.3.0",
+    "@effect/experimental": "^0.43.1",
+    "@effect/language-service": "^0.4.0",
+    "@effect/platform": "^0.79.1",
+    "@effect/platform-node": "^0.75.1",
+    "@effect/printer": "^0.41.8",
+    "@effect/printer-ansi": "^0.41.8",
+    "@effect/vitest": "^0.19.8",
+    "@eslint/eslintrc": "^3.3.0",
+    "@eslint/js": "^9.22.0",
+    "@slidev/cli": "^51.3.0",
+    "@types/node": "^22.13.10",
+    "@vitest/expect": "^3.0.8",
+    "effect": "^3.13.10",
+    "eslint": "^9.22.0",
+    "eslint-import-resolver-typescript": "^3.8.4",
+    "eslint-plugin-import-x": "^4.6.1",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-sort-destructure-keys": "^2.0.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.26.1",
+    "vitest": "^3.0.8"
+  }
+}
