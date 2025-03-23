@@ -7,6 +7,7 @@ fonts:
   serif: Inter
   mono: JetBrains Mono
 colorSchema: dark
+class: cursor-default
 ---
 
 # Building Effect-ive Agents
@@ -781,7 +782,7 @@ The AiToolkit allows us to define a set of tools that the LLM can utilize as
 part of responding to queries.
 
 For those unfamiliar with how tool calls work:
-1. We submit a query to the LLM
+1. We submit a query to the LLM along with a list of tools
 2. The LLM decides it needs to use a tool and responds with
    - The tool name
    - The parameters to call the tool with
